@@ -4,6 +4,7 @@ public class Song {
     private String title;
     private int length;
     private int likes;
+    private  String artistName;
 
     public Song(){
 
@@ -36,5 +37,9 @@ public class Song {
 
     public void setLikes(int likes) {
         this.likes = likes;
+    }
+
+    public String getArtistName() {
+        return artistName;
     }
 }
